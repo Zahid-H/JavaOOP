@@ -1,6 +1,6 @@
 package input;
 
-public class student {
+public class foreach {
     public static void main(String[] args) {
         int[] arr = { 1, 2, 3, 4, 6 };
         for (int i : arr) {
