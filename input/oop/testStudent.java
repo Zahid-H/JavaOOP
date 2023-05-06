@@ -8,9 +8,13 @@ public class testStudent {
         st.dept = "CSE";
         st.id = 181;
 
-        System.out.println(st.name);
-        System.out.println(st.id);
-        System.out.println(st.dept);
-        System.out.println(st.gender);
+        // System.out.println(st.name);
+        // System.out.println(st.id);
+        // System.out.println(st.dept);
+        // System.out.println(st.gender);
+
+        st.displayInfo();
+        student st1 = new student();
+        st1.setInfo(767, "Hasan", "ECE", "Male");
     }
 }
