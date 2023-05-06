@@ -1,4 +1,4 @@
-package input.oop.Cinstructor;
+package input.oop.Constructor;
 
 public class TestCar {
     public static void main(String[] args) {
