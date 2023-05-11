@@ -16,6 +16,10 @@ class pen {
     public void printColor() {
         System.out.println(this.color);
     }
+
+    pen() {
+        System.out.println("This is constructor");
+    }
 }
 
 public class OOPS {
