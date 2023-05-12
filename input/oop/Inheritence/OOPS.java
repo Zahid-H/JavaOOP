@@ -6,7 +6,7 @@ class Shape {
     String color;
 
     public void area() {
-        System.out.print("Displays area");
+        System.out.print("Displays area:\n");
     }
 }
 
@@ -35,5 +35,7 @@ public class OOPS {
         Triagle t = new Triagle();
         t.color = "red";
         t.area();
+        t.area(5, 3);
+        ;
     }
 }
